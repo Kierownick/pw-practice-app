@@ -4,9 +4,8 @@
 // Otherwise: Good Evening
 
 
-function random(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
+import { number as random } from './helpers/randomNumber.js';
+
 var hour;
 hour = random(0, 24);
 console.log("Hour: " + hour);

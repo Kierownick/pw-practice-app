@@ -20,8 +20,5 @@ for(let car of cars) {
 
 cars.forEach(car => {
     console.log(car);
-    if(car == "Ford") {
-        return;
-    }
 })
 

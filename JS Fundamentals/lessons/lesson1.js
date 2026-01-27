@@ -1,4 +1,4 @@
-// 1. Hello World
+// Hello World
 console.log("Hello, World!");
 
 //  Variables and Data Types
