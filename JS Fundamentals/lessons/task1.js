@@ -18,7 +18,7 @@ if familySize is more than four, the function should return "Minivan"
 */
 
 let familySize = 2;
-var plannedDistanceToDrive = 100;
+let plannedDistanceToDrive = 100;
 
 function recommendedCar(familySize, plannedDistanceToDrive) {
     
