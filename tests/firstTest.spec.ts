@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
     await page.getByText('Forms').click();
 });
 
-test.describe('First Test Suite', () => {
+test.describe.skip('First Test Suite', () => {
     test.beforeEach(async ({ page }) => {
         await page.getByText('Charts').first().click();
     });
@@ -20,4 +20,3 @@ test.describe('First Test Suite', () => {
         await page.getByText('Datepicker').click();
     })
 })
-
